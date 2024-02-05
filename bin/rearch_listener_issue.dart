@@ -21,8 +21,8 @@ void main(List<String> arguments) async {
 
     print('Ws State listener -- State: $wsState');
 
-    final loadingCtrl = use(loadingModeCapsule);
-    final wsController = use(wsControllerCapsule);
+    final loadingCtrl = cc.read(loadingModeCapsule);
+    final wsController = cc.read(wsControllerCapsule);
 
     if (wsState == WSState.disconnected) {
       loadingCtrl.on();
