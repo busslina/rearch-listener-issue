@@ -209,6 +209,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  rearch:
+    dependency: "direct main"
+    description:
+      name: rearch
+      sha256: "87c66846ed594c115433e0c4b495714fe46c0f2f660f705b759744d7708fa430"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.0"
   shelf:
     dependency: transitive
     description:

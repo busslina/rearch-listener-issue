@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "rearch_listener_issue",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/rearch_listener_issue.dart",
+        }
+    ]
+}
